@@ -15,4 +15,3 @@ ingress_port: 5580
 panel_icon: "mdi:matter"
 discovery:
   - matter
-init: false
