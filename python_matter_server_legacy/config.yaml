@@ -10,4 +10,9 @@ startup: services
 boot: auto
 host_network: true
 host_dbus: true
+ingress: true
+ingress_port: 5580
+panel_icon: "mdi:matter"
+discovery:
+  - matter
 init: false
