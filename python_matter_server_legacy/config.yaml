@@ -1,0 +1,13 @@
+name: "Python Matter Server (Legacy 6.5.2)"
+version: "6.5.2"
+slug: "python_matter_server_legacy"
+description: "Pinned python-matter-server 6.5.2 for Home Assistant 2024.10.4"
+image: "ghcr.io/home-assistant-libs/python-matter-server"
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+host_network: true
+host_dbus: true
+init: false
